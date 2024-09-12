@@ -1,6 +1,6 @@
 Future<int> buscarId() async => 80;
 
-Future<String> buscarNome(id) async => 'Nome Teste ($id)';
+Future<String> buscarNome(int id) async => 'Nome Teste ($id)';
 
 Future<String> buscarNomeUsuarioAwait() async {
   final id = await buscarId();
